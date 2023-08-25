@@ -45,7 +45,7 @@
 body {
     background-image: url("/public/Ellipse4.svg"), url("/public/Ellipse5.svg"), url("/public/Vector13.svg");
     background-repeat: no-repeat;
-    background-position-y: 10rem, 20rem, 25rem;
+    background-position-y: 30%, 70%, 100%;
     background-position-x: 0, 100%, 50%;
 }
 
