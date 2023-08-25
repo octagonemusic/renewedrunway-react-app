@@ -32,3 +32,13 @@
     margin-left: 2rem;
     margin-right: 2rem;
 }
+
+img {
+    scale: 1.5;
+}
+
+#logo {
+    border-radius: 50%;
+    margin: auto;
+    scale: 2.5;
+}

@@ -40,20 +40,20 @@ function Home() {
                 <div className="row testimonials-row">
                     <div className="col-4">
                         <div className="testimonials-block">
-                            <p className="testimonials-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis molestie pellentesque diam at porta. Sed posuere, nibh nec pharetra porta, sapien massa dictum mauris, ac posuere sapien lectus id sem.</p>
-                            <h5 className="testimonials-name">John Doe</h5>
+                            <p className="testimonials-text">I am thrilled to share my wonderful experience with Threadsorama, the exceptional clothing recycling and sales company. Their commitment to sustainability and fashion is truly inspiring. I have been a customer for a while now, and every interaction with them has left me impressed.</p>
+                            <h5 className="testimonials-name">Obaka</h5>
                         </div>
                     </div>
                     <div className="col-4">
                         <div className="testimonials-block">
-                            <p className="testimonials-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis molestie pellentesque diam at porta. Sed posuere, nibh nec pharetra porta, sapien massa dictum mauris, ac posuere sapien lectus id sem.</p>
-                            <h5 className="testimonials-name">John Doe</h5>
+                            <p className="testimonials-text"> What sets Threadsorama apart is their dedication to both the environment and their customers. Not only do they promote recycling and reducing fashion waste, but their customer service is also top-notch. The staff is knowledgeable, friendly, and always eager to assist. Whether I had questions about their recycling process or needed fashion advice, they were there with a smile.</p>
+                            <h5 className="testimonials-name">Trumpet</h5>
                         </div>
                     </div>
                     <div className="col-4">
                         <div className="testimonials-block">
-                            <p className="testimonials-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis molestie pellentesque diam at porta. Sed posuere, nibh nec pharetra porta, sapien massa dictum mauris, ac posuere sapien lectus id sem.</p>
-                            <h5 className="testimonials-name">John Doe</h5>
+                            <p className="testimonials-text">Shopping at Threadsorama is a guilt-free pleasure. Not only am I enhancing my wardrobe with one-of-a-kind pieces, but I'm also contributing to a more sustainable future. It's heartening to support a company that aligns with my values and makes a genuine difference.</p>
+                            <h5 className="testimonials-name">Joe Biren</h5>
                         </div>
                     </div>
                 </div>
