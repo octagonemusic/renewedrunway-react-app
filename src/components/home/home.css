@@ -1,0 +1,84 @@
+.red-block {
+    width: 80%;
+    height: 25rem;
+    background-color: #FF8D8D;
+    margin: auto;
+    border-radius: 1rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 2rem;
+}
+
+.carousel {
+    margin-top: 5rem;
+}
+
+.text {
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.text-container {
+    width: 40%;
+    margin: auto;
+    text-align: left;
+}
+
+.read-more {
+    text-align: right;
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+}
+
+.best-seller {
+    width: 90%;
+    padding: 2rem;
+    margin: auto;
+    justify-content: space-around;
+    background-color: #EDFFBA;
+    margin-bottom: 2rem;
+    display: flex;
+}
+
+.btn {
+    padding: 0;
+    vertical-align: middle;
+    height: 4rem;
+    margin: auto;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 0.9375rem;
+    background: #55FFA3;
+    width: 9rem;
+}
+
+.btn:hover {
+    background: #55FFA3;
+    color: #000;
+}
+
+.best-text {
+    color: #000;
+    font-family: Lato;
+    font-size: 3.85419rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-bottom: 0.1rem solid #000;
+    padding-bottom: 1rem;
+}
+
+.testimonials-text {
+    color: #000;
+    font-family: Abril Fatface;
+    font-size: 3.39781rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.testimonials {
+    margin-top: 5rem;
+    text-align: center;
+}
