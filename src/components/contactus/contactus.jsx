@@ -44,6 +44,40 @@ function ContactUs() {
                     </div>
                 </div>
             </div>
+
+            <div className="container contact-form">
+                <form>
+                    <div className="row">
+                        <div className="col-6">
+                            <input type="text" className="form-control" placeholder="First name" aria-label="First name" />
+                        </div>
+                        <div className="col-6">
+                            <input type="text" className="form-control" placeholder="Last name" aria-label="Last name" />
+                        </div>
+                    </div>
+
+                    <div className="row">
+                        <div className="col-6">
+                            <input type="text" className="form-control" placeholder="Email" aria-label="Email" />
+                        </div>
+                        <div className="col-6">
+                            <input type="text" className="form-control" placeholder="Phone" aria-label="Phone" />
+                        </div>
+                    </div>
+
+                    <div className="row">
+                        <div className="col-12">
+                            <textarea className="form-control" placeholder="Message" aria-label="Message"></textarea>
+                        </div>
+                    </div>
+
+                    <div className="row button">
+                        <div className="col-12">
+                            <button className="btn">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
     );
 
