@@ -12,27 +12,27 @@ function Shopping() {
         <div className="nav-section">
           <ul>
             <li>
-              <img src="/public/star.svg" alt="" />
+              <img src="/star.svg" alt="" />
               <span>New Arrivals</span>
             </li>
             <li>
-              <img src="/public/shirt.svg" alt="" />
+              <img src="/shirt.svg" alt="" />
               <span>T-shirt</span>
             </li>
             <li className="active">
-              <img src="/public/trousers.svg" alt="" />
+              <img src="/trousers.svg" alt="" />
               <span>Trousers</span>
             </li>
             <li>
-              <img src="/public/shoes.svg" alt="" />
+              <img src="/shoes.svg" alt="" />
               <span>Shoes</span>
             </li>
             <li>
-              <img src="/public/accessories.svg" alt="" />
+              <img src="/accessories.svg" alt="" />
               <span>Accessories</span>
             </li>
             <li>
-              <img src="/public/household.svg" alt="" />
+              <img src="/household.svg" alt="" />
               <span>Household Accessories</span>
             </li>
           </ul>
