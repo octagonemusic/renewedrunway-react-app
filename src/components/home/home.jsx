@@ -2,7 +2,7 @@ import "./home.css"
 
 function Home() {
     return (
-        <>
+        <div>
             <div id="carouselExampleControlsNoTouching" className="carousel slide" data-bs-touch="false">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
@@ -36,9 +36,29 @@ function Home() {
             </div>
 
             <div className="testimonials container">
-                <h1 className="testimonials-text">TESTIMONIALS</h1>
+                <h1 className="testimonials-heading">TESTIMONIALS</h1>
+                <div className="row testimonials-row">
+                    <div className="col-4">
+                        <div className="testimonials-block">
+                            <p className="testimonials-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis molestie pellentesque diam at porta. Sed posuere, nibh nec pharetra porta, sapien massa dictum mauris, ac posuere sapien lectus id sem.</p>
+                            <h5 className="testimonials-name">John Doe</h5>
+                        </div>
+                    </div>
+                    <div className="col-4">
+                        <div className="testimonials-block">
+                            <p className="testimonials-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis molestie pellentesque diam at porta. Sed posuere, nibh nec pharetra porta, sapien massa dictum mauris, ac posuere sapien lectus id sem.</p>
+                            <h5 className="testimonials-name">John Doe</h5>
+                        </div>
+                    </div>
+                    <div className="col-4">
+                        <div className="testimonials-block">
+                            <p className="testimonials-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis molestie pellentesque diam at porta. Sed posuere, nibh nec pharetra porta, sapien massa dictum mauris, ac posuere sapien lectus id sem.</p>
+                            <h5 className="testimonials-name">John Doe</h5>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </>
+        </div>
     );
 }
 

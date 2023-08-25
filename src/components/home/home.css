@@ -69,7 +69,7 @@
     padding-bottom: 1rem;
 }
 
-.testimonials-text {
+.testimonials-heading {
     color: #000;
     font-family: Abril Fatface;
     font-size: 3.39781rem;
@@ -79,6 +79,18 @@
 }
 
 .testimonials {
-    margin-top: 5rem;
+    margin-top: 8rem;
     text-align: center;
 }
+
+.testimonials-row {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.testimonials-block {
+    width: 80%;
+    margin: auto;
+    background: linear-gradient(180deg, #EBFFED 59.80%, #FFF 100%);
+    padding: 2rem;
+}
+

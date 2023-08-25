@@ -6,3 +6,10 @@
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
 }
+
+body {
+    background-image: url("../src/assets/Ellipse4.svg"), url("../src/assets/Ellipse5.svg"), url("../src/assets/Vector13.svg");
+    background-repeat: no-repeat;
+    background-position-y: 10rem, 20rem, 80rem;
+    background-position-x: 0, 0, 50%;
+}

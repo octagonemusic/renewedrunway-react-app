@@ -1,0 +1,50 @@
+.contact-heading {
+    color: #000;
+    font-family: Abril Fatface;
+    font-size: 3.75106rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 0.7rem;
+}
+
+.contact-us {
+    margin-top: 5rem;
+}
+
+.contact-subheading {
+    font-size: 1.2rem;
+}
+
+.contact-info {
+    margin-top: 1rem;
+    width: 50%;
+    float: left;
+}
+
+.address-text {
+    color: #000;
+    font-family: Lato;
+    font-size: 1.4375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+}
+
+.address {
+    margin-top: 2rem;
+    color: #000;
+    font-family: Lato;
+    font-size: 1.4375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+body {
+    background-image: url("../src/assets/Ellipse4.svg"), url("../src/assets/Ellipse5.svg"), url("../src/assets/Vector13.svg");
+    background-repeat: no-repeat;
+    background-position-y: 10rem, 20rem, 25rem;
+    background-position-x: 0, 100%, 50%;
+}
