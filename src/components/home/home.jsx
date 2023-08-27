@@ -7,17 +7,17 @@ function Home() {
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <div className="red-block">
-                            <img className="carousel-img" src="public/image29.png" />
+                            <img className="carousel-img" src={"public/image29.png"} />
                         </div>
                     </div>
                     <div className="carousel-item">
                         <div className="red-block">
-                            <img className="carousel-img" src="public/image30.png" />
+                            <img className="carousel-img" src={"public/image30.png"} />
                         </div>
                     </div>
                     <div className="carousel-item">
                         <div className="red-block">
-                            <img className="carousel-img" src="public/image31.png" />
+                            <img className="carousel-img" src={"public/image31.png"} />
                         </div>
                     </div>
                 </div>
