@@ -18,7 +18,7 @@ function Contributions() {
             <div className="row">
                 <div className="col"></div>
                 <div className="col-3">
-                    <img src="/image25.png" />
+                    <img className="img" src="/image25.png" />
                 </div>
                 <div className="col-4 text">
                     <p className="contributions-text">
@@ -35,7 +35,7 @@ function Contributions() {
                     </p>
                 </div>
                 <div className="col-3">
-                    <img src="/image26.png" />
+                    <img className="img" src="/image26.png" />
                 </div>
                 <div className="col"></div>
             </div>
