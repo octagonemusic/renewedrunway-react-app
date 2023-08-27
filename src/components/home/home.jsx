@@ -1,4 +1,7 @@
 import "./home.css"
+import image29 from "/image29.png"
+import image30 from "/image30.png"
+import image31 from "/image31.png"
 
 function Home() {
     return (
@@ -7,17 +10,17 @@ function Home() {
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <div className="red-block">
-                            <img className="carousel-img" src={"public/image29.png"} />
+                            <img className="carousel-img" src={image29} />
                         </div>
                     </div>
                     <div className="carousel-item">
                         <div className="red-block">
-                            <img className="carousel-img" src={"public/image30.png"} />
+                            <img className="carousel-img" src={image30} />
                         </div>
                     </div>
                     <div className="carousel-item">
                         <div className="red-block">
-                            <img className="carousel-img" src={"public/image31.png"} />
+                            <img className="carousel-img" src={image31} />
                         </div>
                     </div>
                 </div>
