@@ -1,8 +1,180 @@
+.about {
+  background: url("/about/about background1.svg"),
+    url("/about/about background2.svg");
+  background-repeat: no-repeat;
+  background-position-y: 5rem, 20rem;
+  background-position-x: -2.4rem, 0;
+}
+
+.about img {
+  scale: 1;
+}
+
 .about .heading {
   color: #000;
   font-family: Abril Fatface;
-  font-size: 3.39781rem;
+  font-size: 3.5rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+}
+.about .main .content {
+  justify-content: space-between;
+}
+
+.about .main .content .left {
+  position: relative;
+}
+
+.about .main .content.top .left::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 30em;
+  height: 30em;
+  z-index: -1;
+  left: -5rem;
+  border-radius: 100%;
+  background: #f1dfff;
+  bottom: -15rem;
+}
+
+.about .main .main-left-title {
+  font-family: Abril Fatface;
+  color: var(--text-color);
+  font-size: 3.4rem;
+  margin-left: 1.5rem;
+  margin-bottom: 10rem;
+}
+.about .main .bottom {
+  margin-top: 5rem;
+}
+.about .main .bottom .main-left-img {
+  border-radius: 10rem 0rem 0rem 10rem;
+}
+.about .main .bottom .right {
+  max-width: 50%;
+  margin: 4rem;
+}
+
+.about .main .bottom .right .title {
+  font-family: "Lato", sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.about .main .bottom .right span {
+  font-family: "Lato", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.approach {
+  margin-top: 3rem;
+}
+.approach .heading {
+  font-family: Abril Fatface;
+  color: var(--text-color);
+  font-size: 3.4rem;
+}
+.approach .content {
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 40px;
+  margin: 2rem 4rem;
+  position: relative;
+}
+
+.approach .content .list {
+  margin-top: 2rem;
+  gap: 50px;
+}
+
+.team .content {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  background: #f9fff0;
+  overflow: hidden;
+}
+.team .content .team-card .card-content {
+  padding: 0.9rem;
+  gap: 2rem;
+  background: #f9fff0;
+  height: 100%;
+}
+.team .content .team-card:nth-child(3),
+.team .content .team-card:nth-child(4) {
+  flex-direction: row-reverse !important;
+  z-index: 111;
+}
+@media (max-width: 1000px) {
+  .team .content .team-card {
+    margin: 50px;
+  }
+  .team .content .team-card .card-content {
+    gap: 0.5rem;
+    padding: 0.2rem;
+  }
+}
+
+.team .content .team-card .card-content h4 {
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #004e37;
+}
+.team .content .team-card .card-content span {
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.team .content .team-card .card-content .social-media {
+  gap: 9px;
+}
+
+@media (max-width: 1000px) {
+  .team .content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+/* movement */
+.movement {
+  padding: 1rem 1.4rem;
+  margin-top: 4rem;
+  background: #fcffda;
+  border-radius: 1rem;
+}
+.movement .left {
+  margin-right: 4rem;
+  width: 49%;
+  text-align: end;
+  justify-content: flex-end;
+}
+@media (max-width:1024px) {
+  .movement {
+    flex-direction: column!important;
+  }
+  .movement .left {
+    width: 100%;
+    margin-right: 0;
+    text-align: center;
+  }
+  .movement .left h1 {
+    font-size: 4rem;
+  }
+}
+.movement .left h1 {
+  font-size: 5.8rem;
+  font-family: Abril Fatface;
+  font-family: 700;
+}
+.movement .right {
+  margin-left: 4rem;
+  gap: 25px;
+}
+
+.movement .right span {
+  font-family: "Lato", sans-serif;
+  font-size: 1.2rem;
+  line-height: 35px;
 }
