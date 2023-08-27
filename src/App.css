@@ -10,6 +10,6 @@
 body {
     background: url('/public/Ellipse4.svg'), url("/public/Ellipse5.svg"), url("/public/Vector13.svg");
     background-repeat: no-repeat;
-    background-position-y: 10rem, 20rem, 80rem;
+    background-position-y: 10rem, 20rem, 60rem;
     background-position-x: 0, 0, 50%;
 }

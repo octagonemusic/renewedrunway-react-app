@@ -1,4 +1,4 @@
-.heading {
+.head {
     color: #000;
     font-family: Abril Fatface;
     font-size: 3.24213rem;
@@ -7,6 +7,8 @@
     line-height: normal;
     text-align: center;
     margin-top: 5rem;
+    display: block;
+    position: inherit;
 }
 
 div.dot-row {
@@ -83,4 +85,33 @@ div.dot-row {
 
 .carousel {
     margin-top: 5rem;
+}
+
+img {
+    margin-top: 5rem;
+    border-radius: 1.5rem;
+}
+
+
+.contributions-text-2 {
+    margin-top: 2rem;
+    color: #000;
+    text-align: left;
+    font-family: Lato;
+    font-size: 1.35156rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.brown {
+    color: #A52A2A;
 }

@@ -3,7 +3,7 @@ import "./contributions.css";
 function Contributions() {
     return (
         <div className="container-fluid">
-            <h1 className="heading">Our Contributions</h1>
+            <h1 className="head">Our Contributions</h1>
 
             <div className="row dot-row">
                 <svg xmlns="http://www.w3.org/2000/svg" width="179" height="15" fill="none" viewBox="0 0 179 15">
@@ -34,7 +34,9 @@ function Contributions() {
                         We are committed to transparency and strive to educate our customers about our processes and values. We believe that by sharing our story and promoting sustainable fashion, we can make a positive impact on the industry and the world. Thank you for choosing to support our sustainable fashion company. Together, we can make a difference.
                     </p>
                 </div>
-                <div className="col-3 grayblock"></div>
+                <div className="col-3 grayblock">
+                    <img src="/image26.png" />
+                </div>
                 <div className="col"></div>
             </div>
 
@@ -53,26 +55,13 @@ function Contributions() {
                 </div>
             </div>
 
-            <div id="carouselExampleControlsNoTouching" className="carousel slide" data-bs-touch="false">
-                <div className="carousel-inner">
-                    <div className="carousel-item active">
-                        <div className="red-block"></div>
-                    </div>
-                    <div className="carousel-item">
-                        <div className="red-block"></div>
-                    </div>
-                    <div className="carousel-item">
-                        <div className="red-block"></div>
-                    </div>
-                </div>
-                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
-                    <img width="48" height="48" src="https://img.icons8.com/pulsar-color/96/previous.png" alt="previous" />
-                    <span className="visually-hidden">Previous</span>
-                </button>
-                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
-                    <img width="48" height="48" src="https://img.icons8.com/pulsar-color/96/next.png" alt="next" />
-                    <span className="visually-hidden">Next</span>
-                </button>
+            <div className="container">
+                <ul>
+                    <li className="contributions-text-2"><span className="red">Reduced Waste:</span> By diverting textiles from landfills and incinerators, we significantly reduce the fashion industry's environmental footprint.</li>
+                    <li className="contributions-text-2">Resource Conservation: Our upcycling practices help conserve precious resources such as water, energy, and raw materials.</li>
+                    <li className="contributions-text-2"><span className="green">Empowerment:</span> We empower our customers to make conscious fashion choices that align with their values, encouraging a shift towards a more sustainable lifestyle.</li>
+                    <li className="contributions-text-2"><span className="brown">Community Engagement:</span> Our collaborations extend beyond clothes. We partner with local communities to create opportunities, support livelihoods, and foster a sense of shared responsibility for the planet.</li>
+                </ul>
             </div>
 
         </div>
