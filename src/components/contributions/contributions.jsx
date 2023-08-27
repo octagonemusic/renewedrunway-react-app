@@ -17,7 +17,7 @@ function Contributions() {
 
             <div className="row">
                 <div className="col"></div>
-                <div className="col-3 grayblock">
+                <div className="col-3">
                     <img src="/image25.png" />
                 </div>
                 <div className="col-4 text">
@@ -34,7 +34,7 @@ function Contributions() {
                         We are committed to transparency and strive to educate our customers about our processes and values. We believe that by sharing our story and promoting sustainable fashion, we can make a positive impact on the industry and the world. Thank you for choosing to support our sustainable fashion company. Together, we can make a difference.
                     </p>
                 </div>
-                <div className="col-3 grayblock">
+                <div className="col-3">
                     <img src="/image26.png" />
                 </div>
                 <div className="col"></div>

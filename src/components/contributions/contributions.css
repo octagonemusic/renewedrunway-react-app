@@ -38,12 +38,12 @@ div.dot-row {
 }
 
 .grayblock {
-    background-color: #D9D9D9;
     margin: 2.5rem;
     border-radius: 1rem;
     padding: 2rem;
     margin-top: 2rem;
     height: 60vh;
+    display: block;
 }
 
 .bgimg {
@@ -88,10 +88,18 @@ div.dot-row {
 }
 
 img {
-    margin-top: 5rem;
+    width: 100%;
+    height: 100%;
     border-radius: 1.5rem;
 }
 
+.col-3 {
+    width: 25%;
+    border-radius: 2rem;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    max-height: 40rem;
+}
 
 .contributions-text-2 {
     margin-top: 2rem;
