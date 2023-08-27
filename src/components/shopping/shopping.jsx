@@ -101,7 +101,7 @@ function Shopping() {
                 </div>
                 <h4 className="title">SIZE</h4>
                 <div className="size-selector flex-row">
-                  <div className="item">S</div>
+                  <div className="item active">S</div>
                   <div className="item">M</div>
                   <div className="item">L</div>
                   <div className="item">XL</div>
