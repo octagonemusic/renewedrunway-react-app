@@ -6,13 +6,19 @@ function Home() {
             <div id="carouselExampleControlsNoTouching" className="carousel slide" data-bs-touch="false">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <div className="red-block"></div>
+                        <div className="red-block">
+                            <img className="carousel-img" src="public/image29.png" />
+                        </div>
                     </div>
                     <div className="carousel-item">
-                        <div className="red-block"></div>
+                        <div className="red-block">
+                            <img className="carousel-img" src="public/image30.png" />
+                        </div>
                     </div>
                     <div className="carousel-item">
-                        <div className="red-block"></div>
+                        <div className="red-block">
+                            <img className="carousel-img" src="public/image31.png" />
+                        </div>
                     </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
@@ -26,7 +32,7 @@ function Home() {
             </div>
 
             <div className="container text-container">
-                <p className="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis molestie pellentesque diam at porta. Sed posuere, nibh nec pharetra porta, sapien massa dictum mauris, ac posuere sapien lectus id sem.</p>
+                <p className="text">At Threadsorama, we are more than just a company; we are a movement dedicated to reshaping the future of fashion while championing environmental sustainability. Our mission is to revolutionize the way people perceive clothing by promoting the concept of circular fashion through recycling and upcycling.</p>
                 <div className="read-more"><h5 className="text read-more"><a href="..">Read more</a></h5></div>
             </div>
 

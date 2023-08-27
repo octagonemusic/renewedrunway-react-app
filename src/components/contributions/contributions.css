@@ -73,16 +73,6 @@ div.dot-row {
     letter-spacing: -0.03563rem;
 }
 
-.red-block {
-    width: 80%;
-    height: 25rem;
-    background-color: #CECECE;
-    margin: auto;
-    border-radius: 1rem;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    margin-bottom: 2rem;
-}
-
 .carousel {
     margin-top: 5rem;
 }

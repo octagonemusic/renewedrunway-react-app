@@ -1,11 +1,12 @@
 .red-block {
-    width: 80%;
-    height: 25rem;
+    width: 50.625rem;
+    height: 20.375rem;
     background-color: #FF8D8D;
     margin: auto;
     border-radius: 1rem;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     margin-bottom: 2rem;
+    overflow: hidden;
 }
 
 .carousel {
@@ -94,3 +95,6 @@
     padding: 2rem;
 }
 
+.carousel-img {
+    scale: 1;
+}
