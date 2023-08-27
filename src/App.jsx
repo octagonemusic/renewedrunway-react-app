@@ -1,16 +1,15 @@
-import Navbar from './components/navbar/navbar';
-import './App.css';
-import Home from './components/home/home';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import Shopping from './components/shopping/shopping';
-import ContactUs from './components/contactus/contactus';
-import Contributions from './components/contributions/contributions';
-import Footer from './components/footer/footer';
+import Navbar from "./components/navbar/navbar";
+import "./App.css";
+import Home from "./components/home/home";
+import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import Shopping from "./components/shopping/shopping";
+import ContactUs from "./components/contactus/contactus";
+import Contributions from "./components/contributions/contributions";
+import Footer from "./components/footer/footer";
 
 function App() {
   return (
     <>
-
       <Router>
         <Navbar />
         <Routes>
@@ -19,9 +18,10 @@ function App() {
           <Route path="/contactus" element={<ContactUs />} />
           <Route path="/contributions" element={<Contributions />} />
         </Routes>
+        <Footer />
       </Router>
     </>
-  )
+  );
 }
 
 export default App;
