@@ -16,7 +16,7 @@ function Shopping() {
     },
     item3: {
       id: 3,
-      title: "Sirt",
+      title: "Shirt",
       image: "/items/Rectangle 5.png",
     },
     item4: {
@@ -44,12 +44,71 @@ function Shopping() {
       {/* Popup for displaying item details */}
       {selectedItem && (
         <div className="popup flex-col">
-          <button className="close-button" onClick={handleClosePopup}>
-            Close
-          </button>
-          <h2>{selectedItem.title}</h2>
-          <img src={selectedItem.image} alt={selectedItem.title} />
-          {/* Add more item details here */}
+          <div className="popup-content flex-row">
+            {/* 
+            
+            <img src={selectedItem.image} alt={selectedItem.title} /> */}
+            {/* Add more item details here */}
+            <button className="close-button" onClick={handleClosePopup}>
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <div className="image-container">
+              <img src={selectedItem.image} alt={selectedItem.title} />
+            </div>
+            <div className="content-container">
+              <div className="title">
+                <h2>{selectedItem.title}</h2>
+              </div>
+              <div className="des">
+                <h4 className="title">PRODUCT DESCRIPTION</h4>
+                <div className="des-container">
+                  <span className="content">
+                    <h6>Composition:</h6>
+                    <ul>
+                      <li>60% recycled cotton</li>
+                      <li>40% lyocell</li>
+                    </ul>
+                  </span>
+                  <span className="content">
+                    <h6>Specific care instructions:</h6>
+                    <ul>
+                      <li>
+                        Use cold water and gentle washing to prevent shrinkage
+                        and decolourisation.
+                      </li>
+                      <li>
+                        Use mild detergent as they might damage the soft cotton
+                        fibres.
+                      </li>
+                      <li>Avoid high heat or ironing directly.</li>
+                      <li>
+                        Sun dry laying flat or hanging. Avoid using dryer to
+                        prevent damage.
+                      </li>
+                    </ul>
+                  </span>
+                  <span className="content">
+                    <h6>Care:</h6>
+                    <ul>
+                      <li>Do not hot wash</li>
+                      <li>Do not bleach</li>
+                      <li>Do not use dryer</li>
+                      <li>Do not dry clean</li>
+                      <li>Do not tumble dry</li>
+                    </ul>
+                  </span>
+                </div>
+                <h4 className="title">SIZE</h4>
+                <div className="size-selector flex-row">
+                  <div className="item">S</div>
+                  <div className="item">M</div>
+                  <div className="item">L</div>
+                  <div className="item">XL</div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       )}
 

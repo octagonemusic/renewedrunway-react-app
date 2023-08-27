@@ -1,19 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400;1,9..40,500;1,9..40,600&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
 }
 
 :root {
-    --bg-color: #fff;
-    --text-color:#000;
+  --bg-color: #fff;
+  --text-color: #000;
 }
 body {
-    background: url('/public/Ellipse4.svg'), url("/public/Ellipse5.svg"), url("/public/Vector13.svg");
-    background-repeat: no-repeat;
-    background-position-y: 10rem, 20rem, 60rem;
-    background-position-x: 0, 0, 50%;
+  background: url("/public/Ellipse4.svg"), url("/public/Ellipse5.svg"),
+    url("/public/Vector13.svg");
+  background-repeat: no-repeat;
+  background-position-y: 10rem, 20rem, 60rem;
+  background-position-x: 0, 0, 50%;
 }
