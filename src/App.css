@@ -7,6 +7,10 @@
     font-family: 'Lato', sans-serif;
 }
 
+:root {
+    --bg-color: #fff;
+    --text-color:#000;
+}
 body {
     background: url('/public/Ellipse4.svg'), url("/public/Ellipse5.svg"), url("/public/Vector13.svg");
     background-repeat: no-repeat;

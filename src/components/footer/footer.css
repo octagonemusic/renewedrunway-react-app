@@ -102,16 +102,17 @@ footer .bottom {
   border-top: 1.5px solid var(--bg-color);
   align-items: flex-start;
 }
-footer .bottom .row {
+footer .bottom .row-footer {
   margin-top: 10px;
   gap: 10px;
 }
 
-footer .bottom .row a {
+footer .bottom .row-footer a {
   border-right: 1px solid var(--bg-color);
   font-weight: 500;
   color: var(--bg-color);
   padding: 5px 20px 5px 0px;
+  text-decoration: none !important;
 }
 
 footer .bottom span.text {

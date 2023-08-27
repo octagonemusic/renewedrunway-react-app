@@ -99,9 +99,15 @@
 
 .shopping .content-container .items .item {
   background: #efefef;
-  width: calc(100%);
-  height: 15rem;
+  width: 17rem;
+  height: 17rem;
   border-radius: 0.8rem;
+}
+
+.shopping .content-container .items .item img {
+  width: 16.5rem;
+  height: 16.5rem;
+  contain: content;
 }
 
 @media (max-width: 1524px) {

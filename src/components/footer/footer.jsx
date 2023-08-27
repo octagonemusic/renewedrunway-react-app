@@ -44,7 +44,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="bottom flex-col">
-          <div className="flex-row row">
+          <div className="flex-row row-footer">
             <a href="#Website Terms">Website Terms</a>
             <a href="#Privacy Policy">Privacy Policy</a>
             <a href="#Accessibility Statement">Accessibility Statement</a>
