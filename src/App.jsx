@@ -7,6 +7,7 @@ import ContactUs from "./components/contactus/contactus";
 import Contributions from "./components/contributions/contributions";
 import Footer from "./components/footer/footer";
 import About from "./components/about/about";
+import Pickup from "./components/pickup/pickup";
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
           <Route path="/shopping" element={<Shopping />} />
           <Route path="/contactus" element={<ContactUs />} />
           <Route path="/contributions" element={<Contributions />} />
-          <Route path="/about" element={<About/>}/>
+          <Route path="/about" element={<About />} />
+          <Route path="/pickup" element={<Pickup />} />
         </Routes>
         <Footer />
       </Router>
