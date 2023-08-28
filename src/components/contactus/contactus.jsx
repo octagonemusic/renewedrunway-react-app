@@ -13,10 +13,9 @@ function ContactUs() {
                         </svg>
                     </div>
                     <div className="col-11">
-                        <p className="address-text">Bluebells School International
-                            Lala Lajpat Rai Rd,
-                            (opposite LSR College)
-                            <br></br>Kailash Colony, Greater Kailash,New Delhi-110048
+                        <p className="address-text">Lorem Ipsum
+                            Random Place
+                            <br></br>veryrandom
                         </p>
                     </div>
                 </div>
@@ -39,7 +38,7 @@ function ContactUs() {
                         <img width="30" height="30" src="https://img.icons8.com/material-rounded/96/new-post.png" alt="new-post" />
                     </div>
                     <div className="col-11">
-                        <p className="address-text">contantabcbbs@gmail.com
+                        <p className="address-text">contactus@gmail.com
                         </p>
                     </div>
                 </div>
