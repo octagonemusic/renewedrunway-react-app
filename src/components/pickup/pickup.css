@@ -1,0 +1,208 @@
+.pickup .main {
+    margin-top: 2rem;
+  align-items: start;
+  width: 100%;
+  padding: 1rem 2rem 4rem 2rem;
+  color: var(--bg-color);
+  background: url(/pickup/pickup2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pickup .main h1.header {
+  font-family: Abril Fatface;
+  font-size: 4.5rem;
+  font-family: 900;
+}
+.pickup .main .header-bottom {
+  font-family: "Lato", sans-serif;
+  font-size: 1.2rem;
+  max-width: 40%;
+  margin-top: -1rem;
+}
+
+.pickup .main .des {
+  margin-top: 2rem;
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  max-width: 40%;
+}
+
+.pickup .fabric {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pickup .fabric .header {
+  font-family: "Abril Fatface", cursive;
+  font-size: 3.4rem;
+  margin-bottom: 20px;
+}
+
+.pickup .fabric .content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  width: 100%;
+  justify-items: start;
+  font-family: "Lato", sans-serif;
+}
+
+.pickup .fabric .content .item {
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  margin: 1rem;
+}
+
+.pickup .fabric .content .item .text-input input {
+  padding: 0.2rem 1rem;
+  border-radius: 1rem;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s ease;
+}
+
+.pickup .fabric .content .item .text-input input.disable {
+  background-color: #696969;
+  color: #696969;
+  border: none;
+}
+
+.pickup .fabric .content .item .text-input input::placeholder {
+  color: #696969; /* Change the text color */
+  font-style: italic; /* Add italic style to the text */
+  font-size: 14px; /* Change the font size */
+}
+
+/* Style the checkbox */
+.pickup .fabric .content .item input[type="checkbox"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #333;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.pickup .fabric .content .item input[type="checkbox"]:checked {
+  background-color: #333;
+  border-color: #333;
+}
+
+.pickup .fabric .content .item input[type="checkbox"] + label {
+  font-weight: normal;
+}
+.fabric .message {
+  width: 80%;
+}
+.fabric .message textarea {
+  font-size: 1.5rem;
+  color: #848484;
+  margin-top: 2rem;
+  resize: none;
+  width: 100%; /* Adjust the width as needed */
+  height: 150px; /* Adjust the height as needed */
+  padding: 20px; /* Adjust the padding as needed */
+  border: 1px solid #ccc; /* Add a border style */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  font-size: 16px; /* Adjust the font size as needed */
+  line-height: 1.5; /* Adjust the line height as needed */
+}
+/* Contact Form */
+.bookup {
+  margin-top: 5rem;
+}
+.bookup .form {
+  width: 100%;
+}
+.bookup .form .form-header {
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+}
+
+/* Style for the form */
+.bookup .form form {
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  grid-gap: 20px; /* Adjust the gap as needed */
+  margin: 10px 20px;
+}
+
+/* Style for input containers */
+.bookup .form .input-warpp {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.bookup .form .flex-row {
+  gap: 10px;
+}
+.bookup .form .flex-row:nth-child(2) .input-warpp {
+  width: 100%;
+}
+.bookup .form .flex-row:nth-child(4) .input-wrapp {
+  width: 50%;
+}
+/* Style for labels */
+.bookup .form label {
+  font-weight: bold;
+}
+
+/* Style for input fields */
+.bookup .form input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+/* Style for the submit button */
+.bookup .form .submit {
+  grid-row: 4; /* Place the submit button in the fourth row */
+  grid-column: 1 / span 2; /* Span two columns */
+  margin-top: auto;
+}
+
+.bookup .form input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: var(--text-color);
+  color: var(--bg-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.bookup .form input[type="submit"]:hover {
+  background-color: #1b1a1aaf;
+}
+
+.bookup .note {
+  border-radius: 2rem;
+  margin: 0rem 2rem;
+  padding: 1rem;
+  width: 40%;
+  background: #fff8d6;
+}
+.bookup .note .title {
+  font-family: "Lato", sans-serif;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+}
+.bookup .note span.title-des {
+  color: #00000099;
+}
+.bookup .note span {
+    text-align: center;
+}
+.bookup .note p {
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+}
