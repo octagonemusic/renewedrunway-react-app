@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="footer flex-col">
         <div className="top flex-row">
           <div className="left">
-            <h1 className="title">Renewed Fasion.</h1>
+            <h1 className="title">Threadsorama</h1>
             <div className="link-wrapper">
               <a href="#Careers">Careers</a>
               <a href="#Customer care">Customer care</a>
@@ -52,7 +52,7 @@ const Footer = () => {
           </div>
           <span className="text">Do not Sell My Information</span>
           <div className="copyright">
-            <i className="fa fa-copyright" aria-hidden="true"></i> 2023 Renewed
+            <i className="fa fa-copyright" aria-hidden="true"></i> 2023 Threadsorama
             <span>Fasion, LLC. All Rights Reserved</span>
           </div>
         </div>
