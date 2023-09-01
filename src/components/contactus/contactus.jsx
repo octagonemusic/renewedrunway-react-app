@@ -44,7 +44,7 @@ function ContactUs() {
                 </div>
             </div>
 
-            <div className="container contact-fom">
+            <div className="container contact-form">
                 <form>
                     <div className="row">
                         <div className="col-6">
