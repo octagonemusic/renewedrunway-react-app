@@ -50,7 +50,11 @@ function Shopping() {
             <img src={selectedItem.image} alt={selectedItem.title} /> */}
             {/* Add more item details here */}
             <button className="close-button" onClick={handleClosePopup}>
-              <i class="fa-solid fa-xmark"></i>
+              <i className="fa-solid fa-xmark"></i>      
+            </button>
+
+            <button className="buy-button">
+              <h1>BUY</h1>
             </button>
 
             <div className="image-container">
